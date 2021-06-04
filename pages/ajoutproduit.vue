@@ -106,11 +106,13 @@
 
 <script>
 export default {
-    data: {  
-        name: "",
-        category: "",
-        price: "",
-        description: "",
+    data() {  
+        return { 
+            name: "",
+            category: "",
+            price: "",
+            description: "",
+        }
     },
     methods: {
         ajouterProduit() {
