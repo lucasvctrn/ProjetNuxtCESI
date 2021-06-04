@@ -4,7 +4,7 @@
             Téléphone : 03.25.16.01.19 | E-mail : lucopatisserie@gmail.com
         </div>
         <div class="container mx-auto">
-            Adresse : 2 rue de la cote aux canards, 54000 Nancy
+            Adresse : 2 Rue De La Cote Aux Canards, 54000 Nancy
         </div>
         <div class="container mx-auto">
             Copyright 2021 Luco. Tous droits réservés.
