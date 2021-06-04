@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -40,7 +42,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -50,5 +53,29 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  /*
+ ** Auth module configuration
+ ** See https://auth.nuxtjs.org/schemes/local.html#options
+ */
+  auth: {
+      strategies: {
+        local: {
+          endpoints: {
+            login: {
+              url: 'auth/local',
+              method: 'post',
+              propertyName: 'jwt'
+            },
+            user: {
+              url: 'users/me',
+              method: 'get',
+              propertyName: false
+            },
+            logout: false
+          }
+        }
+      }
+    },
 }

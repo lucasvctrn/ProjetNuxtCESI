@@ -28,9 +28,7 @@
                 </nuxt-link>
             </div>
         </div>
-        <div class="mt-10">
-          .
-        </div>
+        <div class="mt-10">.</div>
     </div>
 </template>
 
@@ -55,6 +53,7 @@ export default {
                 const found = this.items.find((item) => item.id === id);
                 const index = this.items.indexOf(found);
                 this.items.splice(index, 1);
+                this.$router.push('/produits');
             });
         },
     },

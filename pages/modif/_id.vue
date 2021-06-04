@@ -99,7 +99,7 @@
             class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-green-900 hover:bg-green-800 hover:shadow-lg focus:outline-none"
             @click=modifierProduit()
         >
-            Envoyer
+            Confirmer les modifications
         </button>
         </form>
     </div>
@@ -134,7 +134,7 @@ export default {
             price: document.getElementById("price").value,
             description: document.getElementById("description").value
         }).then((response) => {
-            this.items.push(response);
+           this.$router.push('/produits');
         });
         },
         getCategory(){

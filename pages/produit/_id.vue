@@ -12,7 +12,7 @@
                     <h2 class="mt-4 mb-4 font-semi-bold text-4xl">{{ item.price }} €</h2>
                 </div>
                 <div>
-                    <p class="text-xl"> {{ item.description }}</p>
+                    <p class="text-xl ml-4"> {{ item.description }}</p>
                 </div>
             </div>
         </div>

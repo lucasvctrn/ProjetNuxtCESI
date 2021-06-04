@@ -5,7 +5,6 @@
                 <img src="~/assets/boutique_exterieur.jpg" />
             </div>
             <div class="ml-10 rounded overflow-hidden w-4/5 flex-none">
-                <h1 class="mt-6 font-bold text-5xl">A PROPOS</h1>
                 <h2 class="mt-4 mb-4 font-semi-bold text-4xl">Qui sommes nous ? </h2>
                 <p class="text-xl">La patisserie Luco une entreprise familliale fondée en 2019 par M.VICTORION Lucas et Mme <br> COTRET Coralie.</p>
                 <p class="text-xl">Elle est née de la passion commune de deux amoureux de la pâtisserie.</p>
@@ -19,7 +18,7 @@
                 <p class="text-xl"> - Samedi de 9h00 à 19h30;</p>
                 <p class="text-xl"> - Dimanche de 9h00 à 19h30.</p>
                 <p class="text-xl mt-4">Vous pouvez venir nous rendre visite au 2 Rue De La Cote Aux Canards, 54000 Nancy.</p>
-                <p class="text-xl">Vous pouvez nous contacter par téléphone au 03.25.16.01.19 ou par mail à l'adresse suivante : <br> lucopatisserie@gmail.com, ou encore via la page contact, pour passer commandes ou obtenir <br> des renseignements.</p>
+                <p class="text-xl">Vous pouvez nous contacter par téléphone au 03.25.16.01.19 ou par mail à l'adresse suivante : <br> lucopatisserie@gmail.com pour passer commandes ou obtenir des renseignements.</p>
             </div>
         </div>
     </div>
