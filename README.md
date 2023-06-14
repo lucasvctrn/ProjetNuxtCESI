@@ -1,4 +1,8 @@
-# my-project-nuxt
+# ProjetNuxtCESI
+
+Ce projet a été développé lors du module de cours Vue.js, durant ma formation "Responsable en Ingénierie des Logiciels" au CESI.
+
+Il s'agit d'un site web vitrine pour une boulangerie fictive, développé avec Nuxt.js, Vue.js, Tailwind CSS et utilisant Strapi pour le back-end (gestion et stockage des données).
 
 ## Build Setup
 
